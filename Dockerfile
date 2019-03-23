@@ -2,6 +2,7 @@ FROM jupyter/datascience-notebook
 
 RUN conda install --quiet --yes \
     'pytorch'\
-    'torchvision'
+    'torchvision'\
+    'plotly'
 
 RUN pip install pyro-ppl
